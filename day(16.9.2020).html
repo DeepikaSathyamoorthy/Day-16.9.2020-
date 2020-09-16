@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("img3.jpg");
+  background-color: #cccccc;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  outline-style: solid;
+  outline-color: coral;
+}
+
+p {
+  font-family: Gowdy Bookletter 1911;
+  font-size: 20px;
+  text-align: justified;
+  color: white;
+  outline-style: solid;
+  outline-color: coral;
+  background-color: brown;
+}
+ul{
+  list-style-type: square;
+ outline-style: solid;
+  outline-color: coral;
+  width: 50%
+}
+ul li::before {
+  content: "\2022";
+  color: violet;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+table, td,th {
+  border: 1px solid black;
+}
+
+table {
+  
+  width: 100%;
+  outline-style: solid;
+  outline-color: coral;
+}
+th{
+height:50px;
+}
+</style>
+</head>
+<body>
+
+<h1>MOVIE DASHBOARD</h1>
+<p>dmsnf dsfsnjjawr dsfnne dfawj dsfjjalkwkj dsfsklawj  flkekwja efjwnrkjf dsfnajsnrkf sdfnckjwewnrwrf jekjfnew fnewkjgrkr djelwkjfr fjekwkfkjer eknfrhg esenfjerjg enfwjef klkejr fkjrg kjfjrhkgh jfjfrjhehkj nfeekjjgnfrkjhg frngnkrje. rgfrkjehg ferhfgehr fekfrbehgb frbgbhrbt fgjkerkh ewefjerhhngkj fhrekjgh fhrejkhhgk ewfbkreb ewfbbkrhfg fkjfjerg frjhftkr rrfhgrjeh rfrejgh rekjkghr rkrgtr.</p>
+THE FOLLOWING INFORMATION ARE DISPLAYED FOR THE MOVIES
+
+<ul>
+  <li>Movie Name</li>
+  <li>Movie Artist</li>
+  <li>Movie Release Year</li>
+  <li>IMDB Bank</li>
+</ul>
+<table>
+<tr>
+	<th>Movie Name</th>
+</tr>
+</table>
+<table>
+  <tr>
+  	<th>Movie Name</th>
+    <th>Artist</th>
+    <th>Release Year</th>
+    <th>Imbd Link</th>
+  </tr>
+  <tr>
+  	<td>Pursuit of Happiness</td>
+    <td>WillSmith</td>
+    <td>2006</td>
+    <td><a href=" https://www.abc.com/">ImbdLink</a></td>
+  </tr>
+  <tr>
+  	<td>SlumDog Millionare</td>
+    <td>Dev Patel, Anil Kapoor</td>
+    <td>2008</td>
+    <td><a href=" https://www.def.com/">ImbdLink</a></td>
+  </tr>
+  <tr>
+  	<td>Vantage Point</td>
+    <td>Dennis Quiad, Mathew Fox</td>
+    <td>2008</td>
+    <td><a href=" https://www.ghi.com/">ImbdLink</a></td>
+  </tr>
+  <tr>
+  	<td>Arge</td>
+    <td>Ben Afflock, Mathew Fox</td>
+    <td>2012</td>
+    <td><a href=" https://www.jkl.com/">ImbdLink</a></td>
+  </tr>
+</table>
+<table>
+<tr>
+	<td>The above table represents movie details</td>
+</tr>
+</table>
+
+</body>
+</html>
